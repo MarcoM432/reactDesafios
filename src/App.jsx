@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import CartWidget from './cartWidget'
+import CartWidget from './components/cartWidget'
 
 function App() {
   const[cartItems, setCartItems] = useState(1)
@@ -17,9 +17,6 @@ function App() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Acerca de</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Contacto</a>

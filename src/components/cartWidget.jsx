@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function CartWidget() {
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(4);
 
   return (
     <div className="navbar-nav ms-auto">
